@@ -1,0 +1,21 @@
+{
+    "extends": [
+        "airbnb",
+        "eslint:recommended",
+        "prettier",
+        "plugin:react/recommended",
+        "plugin:meteor/recommended",
+        "prettier/react"
+    ],
+    "parser": "babel-eslint",
+    "settings": {
+        "import/resolver": "meteor"
+    },
+    "plugins": [
+        "meteor",
+        "prettier"
+    ],
+    "rules": {
+        "no-console": "off"
+    }
+}
